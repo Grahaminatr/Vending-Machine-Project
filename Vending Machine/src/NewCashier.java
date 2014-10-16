@@ -1,13 +1,16 @@
+import java.util.Scanner;
+
 
 public class NewCashier extends java.lang.Object
 	{
 	private int currentCents;
-	private boolean enterMoney=true;
-	public int[] addMoney()
+	public int[] addMoney(int value)
 		{
-		while(enterMoney)
-			{
-			
-			}
+		currentCents += value;
+		}
+	public int[] currentValue()
+		{
+		// divide by 100 for dollars
+		// mod 100 for cents
 		}
 	}
