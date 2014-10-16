@@ -43,7 +43,7 @@ public class Cashier extends java.lang.Object
 				}
 			currentTotal = currentTotal + newMoney;
 			System.out.println("You have entered $" + currentTotal);
-			System.out.println("Are you done entering money? Yes or No?");
+			System.out.println("Are you done entering money? Yes or No.");
 			Scanner userInput2 = new Scanner(System.in);
 			yesOrNo = userInput2.next();	
 			switch (yesOrNo)
